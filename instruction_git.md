@@ -86,3 +86,11 @@
 Для большей наглядности можно дополнить команду вывода журнала параметром "graph". Вот так:
 
     git log --graph
+   
+## Работа с удаленными репозиториями
+
+После создания репо на гитхабе авторизуем VS Code и выполняем:
+
+   git remote add origin https://github.com/g0-blin/seminar
+   git branch -M main
+   git push -u origin main
